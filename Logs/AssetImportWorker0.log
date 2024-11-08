@@ -1,0 +1,501 @@
+Unity Editor version:    2022.3.28f1 (6bae5ce6b222)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.5.2 (Build 22G91)
+Darwin version:          22.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/LoYuk/Desktop/STG
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59557
+Successfully changed project path to: /Users/LoYuk/Desktop/STG
+/Users/LoYuk/Desktop/STG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8686821504] Host "[IP] 192.168.80.200 [Port] 0 [Flags] 2 [Guid] 1456007220 [EditorId] 1456007220 [Version] 1048832 [Id] OSXEditor(0,ChunYinMacbook.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8686821504] Host "[IP] 192.168.80.200 [Port] 0 [Flags] 2 [Guid] 1456007220 [EditorId] 1456007220 [Version] 1048832 [Id] OSXEditor(0,ChunYinMacbook.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.28f1 (6bae5ce6b222)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/LoYuk/Desktop/STG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002696 seconds.
+- Loaded All Assemblies, in  0.245 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.162 seconds
+Domain Reload Profiling: 406ms
+	BeginReloadAssembly (82ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (97ms)
+		LoadAssemblies (82ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (96ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (85ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (162ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (124ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (86ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.120 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.195 seconds
+Domain Reload Profiling: 314ms
+	BeginReloadAssembly (67ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (9ms)
+		LoadAssemblies (31ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (195ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (113ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (16ms)
+			ProcessInitializeOnLoadAttributes (79ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (43.4 KB). Loaded Objects now: 516.
+Memory consumption went from 58.9 MB to 58.8 MB.
+Total: 1.919083 ms (FindLiveObjects: 0.025917 ms CreateObjectMapping: 0.003333 ms MarkObjects: 1.839292 ms  DeleteObjects: 0.049958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 301777.443056 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5208e1b3961b24ade599b80025923a') in 0.072945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.757817 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b9ac0cfe8166026b7f472756d25bc4') in 0.003583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 15.029571 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91edd47cc5dfb5a34905137f4a3a545') in 0.003832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 14.415229 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc535a1d7bb7c9328ceaf49848205dd2') in 0.003630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 3.394577 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3736105a461328bac15b360752cb8e37') in 0.003793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 5.003427 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79225d4acaf0c0f293a17c174332188') in 0.003829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 3.797591 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f48c7522c4b6d700178160ee6f38c5') in 0.010624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 42.171470 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7befe1245450c347a5e65d42b0e844') in 0.003845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 32.032505 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5f7c4ccde61c09c5adf10e539cf1a6') in 0.003744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 6.199080 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e57603920d634a6aab1c2b8683b862a') in 0.003469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 2.997311 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c37c97b4013e430288fead6ffa986e') in 0.003589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 3.799607 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad83796267264a76d15bac7ee1959ff1') in 0.003675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 21.437392 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2b6239e647b5d5fb35581a55c0916d') in 0.004166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 3.000835 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56534895f07f26cbb5046f831ada15fd') in 0.003654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 7.201023 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef1d21e9f12aea52eff81332fef705d') in 0.003545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 13.424017 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03da5d8799638d482b16dd3dbcc80a90') in 0.003604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 7.004021 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9909f5933d5c8f90627bd2aa066d5dd1') in 0.003875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 4.403779 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897f010f1426cfa7a012e0a93eebc193') in 0.003908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 17.226544 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247b59fb9a18e71b3f641ed3519818a7') in 0.003860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 205.221334 seconds.
+  path: Assets/Script/findEntraceExitPoint.cs
+  artifactKey: Guid(57a03f84944c34e68ad26886ed660577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/findEntraceExitPoint.cs using Guid(57a03f84944c34e68ad26886ed660577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d9839d072228150a8da5ed10048d29') in 0.000331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x179d87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.111 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.186 seconds
+Domain Reload Profiling: 297ms
+	BeginReloadAssembly (64ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (6ms)
+		LoadAssemblies (29ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (186ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (109ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (16ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (21.9 KB). Loaded Objects now: 527.
+Memory consumption went from 61.0 MB to 60.9 MB.
+Total: 1.701084 ms (FindLiveObjects: 0.019958 ms CreateObjectMapping: 0.002541 ms MarkObjects: 1.674834 ms  DeleteObjects: 0.003375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21.778757 seconds.
+  path: Assets/Script/findEntraceExitPoint.cs
+  artifactKey: Guid(57a03f84944c34e68ad26886ed660577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/findEntraceExitPoint.cs using Guid(57a03f84944c34e68ad26886ed660577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bae17d4fe6250c2a186bdf24c94a542') in 0.000849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16ff43000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.112 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.186 seconds
+Domain Reload Profiling: 299ms
+	BeginReloadAssembly (66ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (6ms)
+		LoadAssemblies (30ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (187ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (107ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (16ms)
+			ProcessInitializeOnLoadAttributes (74ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (21.9 KB). Loaded Objects now: 527.
+Memory consumption went from 64.4 MB to 64.3 MB.
+Total: 1.632833 ms (FindLiveObjects: 0.018458 ms CreateObjectMapping: 0.002375 ms MarkObjects: 1.608292 ms  DeleteObjects: 0.003583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 189.293393 seconds.
+  path: Assets/Script/findEntraceExitPoint.cs
+  artifactKey: Guid(57a03f84944c34e68ad26886ed660577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/findEntraceExitPoint.cs using Guid(57a03f84944c34e68ad26886ed660577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cefd71b2b89ab17c346a710d0cc1da') in 0.000879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.882631 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a98ac663683817c15b468cdf771430f') in 0.037058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 2.353867 seconds.
+  path: Assets/Script/Jump.prefab
+  artifactKey: Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Jump.prefab using Guid(f56e1d6648c07614b889b5ca75e1cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e77ee8aa2e9382e3f598f40e0186ca') in 0.004681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16

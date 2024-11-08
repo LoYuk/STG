@@ -3,22 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Background
-  - Bullet
-  - GameBoundaries
-  - Enemy
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Character
+  - 
   - Water
   - UI
-  - BackGround
-  - Bullet
-  - Enemy
-  - Bezier Points and Curves
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -44,7 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: UI
-    uniqueID: 1450055393
     locked: 0
